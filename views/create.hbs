@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding User</title>
+</head>
+
+<body>
+    <h1>Adding User</h1>
+    <form action="postuser" method="post">
+        <label>Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label>Age</label>
+        <input type="number" name="age" min="1" max="120" id="age"><br><br>
+        <input type="submit" value="Send">
+    </form>
+    <a href="/users">Show User List</a>
+</body>
+
+</html>
